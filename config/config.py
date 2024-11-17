@@ -28,7 +28,7 @@ BOT_TOKEN = "7862312959:AAHz9V0aZ2J14s6H6D6zkcYpjHrEislUGFQ"
 
 
 # Database to save your chats and stats... Get MongoDB:-  https://telegra.ph/How-To-get-Mongodb-URI-04-06
-MONGO_DB_URI = getenv("MONGO_DB_URI", mongodb+srv://Krishna:pss968048@cluster0.4rfuzro.mongodb.net/?retryWrites=true&w=majority)
+MONGO_DB_URI = getenv("MONGO_DB_URI"," mongodb+srv://Krishna:pss968048@cluster0.4rfuzro.mongodb.net/?retryWrites=true&w=majority")
 
 
 CLEANMODE_DELETE_MINS = int(
